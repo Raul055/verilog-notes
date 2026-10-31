@@ -150,7 +150,8 @@ module asynchronous_up_counter_tb;
 endmodule
 ```
 
-**Note**: *asynchronous counter cannot be used with fast circuits*.
+>[!warning]
+> Asynchronous counter cannot be used with fast circuits.
 
 ___
 # Synchronous Counter
