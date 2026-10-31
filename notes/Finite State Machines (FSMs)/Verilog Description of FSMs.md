@@ -67,11 +67,12 @@ module mealy_101_detector
 				else
 					state_next = s0;
 			end
-			default:
+			default: state_next = state_reg; // can also be go to s0
 		endcase
 	end
 	
 	// Output logic
+	assign y = 
 
 endmodule
 ```
