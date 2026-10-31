@@ -3,7 +3,7 @@ ___
 ## Priority routing networks (`if-else`, `non`-parallel `case`)
 A **priority routing network** is a combinational circuit that picks which signal to pass along based on a ranked list of conditions. If several conditions are true at once, the highest-priority one wins.
 
-For example, based on the `4x1 Multiplexer if-else` module from [[1. Multiplexers]].
+For example, based on the `4x1 Multiplexer if-else` module from [[Multiplexers]].
 
 ```verilog
 always @(w0, w1, w2, w3, s)
@@ -26,7 +26,7 @@ ___
 ## Multiplexing networks (parallel `case`).
 A **multiplexing network** is a combinational circuit that selects one of several input signals and forwards it to a single output, based on a select signal.
 
-For example, based on the `4x1 Multiplexer case` module from [[1. Multiplexers]].
+For example, based on the `4x1 Multiplexer case` module from [[Multiplexers]].
 ```verilog
 always @(w0, w1, w2, w3, s)
 begin
