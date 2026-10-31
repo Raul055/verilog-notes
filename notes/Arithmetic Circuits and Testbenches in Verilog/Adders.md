@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # Half Adder
 A **half-adder** is a basic combinational logic circuit that adds two single-bit binary inputs, $A$ and $B$, to produce two outputs: a **Sum** and a **Carry**.
 

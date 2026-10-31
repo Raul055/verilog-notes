@@ -1,4 +1,6 @@
 ___
+> **[[Index]]**
+
 **Generic Verilog Code Parametrization** means to write efficient code by writing generic modules with the use of parameters. For example,  we analyze the `N-Bit Adder`.
 
 ![[n-bit-adder.png | center]]
