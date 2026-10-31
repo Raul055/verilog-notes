@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # T Flip-Flops
 A **T flip-flop** (toggle flip-flop) changes state on a clock edge when its input **T** is 1, and holds its state when `T = 0`. It is usually built from a D flip-flop plus an XOR gate.
 

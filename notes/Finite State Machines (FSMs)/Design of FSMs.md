@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # Design Steps
 The following steps are recommended for the design of a FSM.
 1. Draw the state diagram based on specifications & desired behavior.

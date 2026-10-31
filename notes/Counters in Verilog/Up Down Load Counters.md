@@ -1,4 +1,6 @@
 ___
+> **[[Index]]**
+
 These counters follow the **General Synchronous System**.
 
 ![[general-synchronous-system.png | center]]

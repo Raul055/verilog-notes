@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # General Synchronous System
 We know that a FSM is a **general synchronous system**. It contain a **state register**, which is a register that stores the current state where the FSM is.
 

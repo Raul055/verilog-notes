@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # BCD Counter
 A **BCD Counter** (Binary-Coded Decimal Counter), also known as a **decade counter**, is a digital circuit that counts sequentially from **0 to 9** using a `4-bit` binary output (**0000** to **1001**), automatically resetting to zero upon reaching the count of 9. The following module describes the **BCD Counter**.
 

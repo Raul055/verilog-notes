@@ -1,4 +1,6 @@
 ___
+> **[[Index]]** 
+
 Counters can be used as timers. For them, according to the frequency of the `clk`, we can determine the `FINAL_VALUE` a **modulus counter** shall reach in order to reach the desired period of our timer.
 
 ![[counter-timer.png | center]]
