@@ -74,3 +74,56 @@ We can also do it with the **Moore machine** version.
 
 ![[description-fsm-state-diagram-2.png | center]]
 
+The following module represent the FSM of the `101 Moore Detector`.
+```verilog
+module moore_101_detector
+	(
+		input clk,
+		input reset,
+		input x,
+		input y
+	);
+	
+	reg [1:0] state_reg, state_next;
+	// States from FSM
+	localparam s0 = 0; // reset state
+	localparam s1 = 1;
+	localparam s2 = 2;
+	localparam s3 = 3;
+	
+	// State register
+	always @(posedge clk, posedge reset)
+	begin
+		if(reset)
+			state_reg <= s0; // go to reset state
+		else
+			state_reg <= state_next;
+	end
+	
+	// Next state logic
+	always @(*)
+	begin
+		case(state_reg)
+			s0: if(x)
+					state_next = s1;
+				else
+					state_next = s0;
+			s1:
+				if(x)
+					state_next = s1;
+				else
+					state_next = s2;
+			s2:
+				if(x)
+					state_next = s1;
+				else
+					state_next = s0;
+			default: state_next = state_reg; // can also be go to s0
+		endcase
+	end
+	
+	// Output logic
+	assign y = 
+
+endmodule
+```
