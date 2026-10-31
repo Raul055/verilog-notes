@@ -11,6 +11,6 @@ As seen in [[Design of FSMs]], the obtention of a circuit from the design of a F
 6. *Get simplified FF input equations & output equations.*
 7. *Draw circuit diagram.*
 
-As seen, these are **design steps** when designing a FSM. In reality, we only need to focus on step 1, which is the creation of the **state diagram** for the implementation of a FSM. The other steps can be inferred by most CAD tools.
+As seen, these are **design steps** when designing a FSM. In reality, we only need to focus on step 1, which is the creation of the **state diagram** for the implementation of a FSM. The other steps can be inferred by vivado.
 
 .
