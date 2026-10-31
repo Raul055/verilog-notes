@@ -1,4 +1,3 @@
-[[Index]]
 ___
 Consider the following module.
 ```verilog
