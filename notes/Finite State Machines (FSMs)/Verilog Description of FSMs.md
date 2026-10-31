@@ -26,8 +26,15 @@ module mealy_101_detector
 		input x,
 		input y
 	);
-
+	
+	reg [1:0] state_reg, state_next;
+	
+	localparam s0 = 0;
+	localparam s1 = 1;
+	localparam s2 = 2;
+	
 	// State register
+	
 	
 	// Next state logic
 	
