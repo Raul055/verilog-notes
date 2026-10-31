@@ -40,7 +40,10 @@ assign sum = x + y; // by default, N+1 bits
 assign s = sum[N-1:0]; // all bits but MSB from sum correspond to the solution
 assign c_out = sum[n]; // MSB of sum is c_out
 ```
-	Note: carefull with this default behaviour when dealing with arithmetic operations.
+
+> [!warning]
+> Carefull with this default behaviour when dealing with arithmetic operations.
+
 Additionally, the upper expressions can also be defined as the following.
 ```verilog
 assign {c_out, s} = x + y; // expanded to N+1 bits & and assigned c_out and s
