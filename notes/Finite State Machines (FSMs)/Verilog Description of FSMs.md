@@ -135,8 +135,4 @@ endmodule
 > [!info]
 > Note how both designs follow the **General Synchronous System** design structure.
 
-
-```verilog
-
-```
 ___
