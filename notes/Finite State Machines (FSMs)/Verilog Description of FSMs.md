@@ -19,7 +19,19 @@ For example, taking the **Mealy machine** example from [[Design of FSMs]], we ca
 
 The following module represent the FSM of the `101 Mealy Detector`.
 ```verilog
-module
+module mealy_101_detector
+	(
+		input clk,
+		input reset,
+		input x,
+		input y
+	);
 
-endmo
+	// State register
+	
+	// Next state logic
+	
+	// Output logic
+
+endmodule
 ```
