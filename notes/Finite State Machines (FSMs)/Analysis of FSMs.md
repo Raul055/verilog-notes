@@ -10,7 +10,8 @@ We can obtain the **state equations**.
 $$A(t+1) = (A \oplus B) \cdot x$$
 $$ B(t+1) = A\bar{B} + \bar{x} $$
 $$ y = AB $$
-***Note**: for simplicity, it is inferred that everything right from the assignment is the current value (i.e. $A(t)$).*
+>[!info]
+>For simplicity, it is inferred that everything right from the assignment is the current value (i.e. $A(t)$).
 
 After the **state equation**, we can build the **state table**.
 
