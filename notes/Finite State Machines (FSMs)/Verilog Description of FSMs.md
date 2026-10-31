@@ -38,9 +38,20 @@ module mealy_101_detector
 	begin
 		if(reset)
 			state_reg <= s0; // go to reset state
+		else
+			state_reg <= state_next;
 	end
 	
 	// Next state logic
+	always @(*)
+	begin
+		case(state_reg)
+			s0: 
+			s1:
+			s2:
+			default:
+		endcase
+	end
 	
 	// Output logic
 
