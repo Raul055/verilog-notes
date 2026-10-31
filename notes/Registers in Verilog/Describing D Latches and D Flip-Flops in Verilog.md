@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # D Latches
 The following module corresponds to a `D Latch`.
 ```verilog

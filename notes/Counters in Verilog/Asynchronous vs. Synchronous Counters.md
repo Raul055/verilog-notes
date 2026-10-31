@@ -209,7 +209,9 @@ module synchronous_up_counter
 
 endmodule
 ```
-**Note**: *`1'b1` can be an enable signal*.
+
+> [!tip]
+> `1'b1` can be an enable signal.
 
 This can be used with the following testbench.
 
