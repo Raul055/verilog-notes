@@ -1,6 +1,6 @@
 ___
 
-**Arithmetic Circuits and Testbenches in Verilog**
+# **Arithmetic Circuits and Testbenches in Verilog**
 - [[1. Adders]]
 - [[2. Generic Verilog Code Parametrization]]
 - [[3. Substractors]]
@@ -17,12 +17,12 @@ Combinational-Circuit Building Blocks
 5. [[5. Code Converters]]
 
 Registers in Verilog
-I. [[1. Simple Storage Elements (Latches & Flip-Flops)]]
-II. [[2. Describing D Latches and D Flip-Flops in Verilog]]
+I.   [[1. Simple Storage Elements (Latches & Flip-Flops)]]
+II.  [[2. Describing D Latches and D Flip-Flops in Verilog]]
 III. [[3. Blocking and Nonblocking Assignments]]
-IV. [[4. Verilog Behavioral Modeling Coding Guidelines]]
-V. [[5. Synchronous, Asynchronous, Set & Reset]]
-VI. [[6. Describing Registers in Verilog]]
+IV.  [[4. Verilog Behavioral Modeling Coding Guidelines]]
+V.   [[5. Synchronous, Asynchronous, Set & Reset]]
+VI.  [[6. Describing Registers in Verilog]]
 
 Counters in Verilog
 	[[1. Asynchronous vs. Synchronous Counters]]
