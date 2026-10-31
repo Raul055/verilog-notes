@@ -19,4 +19,11 @@ Registers in Verilog
 	[[2. Describing D Latches and D Flip-Flops in Verilog]]
 	[[3. Blocking and Nonblocking Assignments]]
 	[[4. Verilog Behavioral Modeling Coding Guidelines]]
-	[[]]
+	[[5. Synchronous, Asynchronous, Set & Reset]]
+	[[6. Describing Registers in Verilog]]
+Counters in Verilog
+	[[1. Asynchronous vs. Synchronous Counters]]
+	[[2. Up Down Load Counters]]
+	[[3. Modulus Counters]]
+	[[4. BCD & Multi-Decade Counters]]
+	[[5]]
