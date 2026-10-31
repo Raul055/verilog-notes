@@ -17,12 +17,12 @@ ___
 	5. [[Code Converters]]
 
 **Registers in Verilog**
-1. [[1. Simple Storage Elements (Latches & Flip-Flops)]]
-2. [[2. Describing D Latches and D Flip-Flops in Verilog]]
-3. [[3. Blocking and Nonblocking Assignments]]
-4. [[4. Verilog Behavioral Modeling Coding Guidelines]]
-5. [[5. Synchronous, Asynchronous, Set & Reset]]
-6. [[6. Describing Registers in Verilog]]
+1. [[Simple Storage Elements (Latches & Flip-Flops)]]
+2. [[Describing D Latches and D Flip-Flops in Verilog]]
+3. [[Blocking and Nonblocking Assignments]]
+4. [[Verilog Behavioral Modeling Coding Guidelines]]
+5. [[Synchronous, Asynchronous, Set & Reset]]
+6. [[Describing Registers in Verilog]]
 
 **Counters in Verilog**
 	1. [[Asynchronous vs. Synchronous Counters]]
@@ -36,8 +36,8 @@ ___
 	2. [[Linear Feedback Shift Register (LFSR)]]
 
 **Finite State Machines (FSMs)**
-	1. [[1. Analysis of FSMs]]
-	2. [[2. Mealy vs. Moore FSMs]]
-	3. [[3. Design of FSMs]]
-	4. [[4. Verilog Description of FSMs]]
+	1. [[Analysis of FSMs]]
+	2. [[Mealy vs. Moore FSMs]]
+	3. [[Design of FSMs]]
+	4. [[Verilog Description of FSMs]]
 ___

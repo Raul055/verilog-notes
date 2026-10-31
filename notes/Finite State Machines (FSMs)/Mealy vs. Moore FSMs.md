@@ -9,7 +9,7 @@ ___
 # Mealy Machine
 A **Mealy machine** is an FSM whose outputs depend on both the **current state and the current inputs**. A *Mealy machine* is a deterministic finite-state transducer: for each state and input, at most one transition is possible.
 
-We can implement a `001 detector` as a *Mealy machine* with the following module. It is based on the **Example 2** from [[1. Analysis of FSMs]].
+We can implement a `001 detector` as a *Mealy machine* with the following module. It is based on the **Example 2** from [[Analysis of FSMs]].
 
 ```verilog
 module mealy_011_detector
@@ -48,7 +48,7 @@ ___
 # Moore Machine
 A **Moore machine** is an FSM whose outputs depend **only on the current state**. In Moore machines, the input typically influences the next state. Thus the input may indirectly influence subsequent outputs, but not the current or immediate output.
 
-We can implement a `001 detector` as a *Moore machine* with the following module. It is based on the **Example 1** from [[1. Analysis of FSMs]].
+We can implement a `001 detector` as a *Moore machine* with the following module. It is based on the **Example 1** from [[Analysis of FSMs]].
 
 ```verilog
 module moore_011_detector
@@ -83,7 +83,7 @@ module moore_011_detector
 endmodule
 ```
 
-Another implementation of the **Example 3** from [[1. Analysis of FSMs]] is the following module.
+Another implementation of the **Example 3** from [[Analysis of FSMs]] is the following module.
 
 ```verilog
 module moore_3ff_011_detector
