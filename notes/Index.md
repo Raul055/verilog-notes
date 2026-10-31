@@ -30,4 +30,9 @@ Counters in Verilog
 Counter Applications in Verilog
 	[[1. PWM]]
 	[[2. Linear Feedback Shift Register (LFSR)]]
-Fini
+Finite State Machines (FSMs)
+	[[1. Analysis of FSMs]]
+	[[2. Mealy vs. Moore FSMs]]
+	[[3. Design of FSMs]]
+	[[4. Verilog Description of FSMs]]
+___
