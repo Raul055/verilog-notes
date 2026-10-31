@@ -162,7 +162,7 @@ This can be seen as the following.
 
 >[!info]
 >Parallel access is NOT described in the module.
->
+
 ___
 # `N-Bit` Universal Shift Register
 The following module describes a `N-Bit` universal shift register.

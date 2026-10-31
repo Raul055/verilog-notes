@@ -3,7 +3,8 @@ The following table is very useful to see the representation of numbers in veril
 
 ![[number-representation-verilog.png | center]]
 
-***Notes:***
-- `x` represent a **don't care**.
-- `z` represent a **high impedance**.
+> [!info]
+> - `x` represent a **don't care**.
+> - `z` represent a **high impedance**.
+
 ___
