@@ -1,4 +1,6 @@
 ___
+[[Index]]
+~~~
 Consider the following module.
 ```verilog
 module some_circuit
