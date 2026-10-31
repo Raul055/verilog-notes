@@ -1,4 +1,6 @@
 ___
+> **[[Index]]** 
+
 An **encoder** is the inverse of a decoder. It takes $2^n$ input lines  and produces an $n$-bit binary code saying which line is active.
 
 ![[encoders.png | center]]

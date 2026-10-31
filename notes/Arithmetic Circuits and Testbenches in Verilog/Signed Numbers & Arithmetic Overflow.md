@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # Signed Numbers Representations
 There are various ways to represent a signed number in binary.
 - **Sign-and-Magnitude**: the *MSB* represent the sign, while the rest represent the magnitude. For example, asuming `4-bits`, `1110` represents $(-6)_{10}$.

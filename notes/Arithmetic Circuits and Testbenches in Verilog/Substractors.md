@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # 2's Complement
 In an `N-bit number`, the most significant bit (MSB) carries a negative weight of `-2^(N-1)`, and all the other bits carry their usual positive weights. To obtain the *2's Complement* of a number, first you invert (negate ~) all bits and then add `1`. For example:
 

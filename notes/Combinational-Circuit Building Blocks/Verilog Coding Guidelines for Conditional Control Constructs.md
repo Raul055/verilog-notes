@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # Routing Networks
 ## Priority routing networks (`if-else`, `non`-parallel `case`)
 A **priority routing network** is a combinational circuit that picks which signal to pass along based on a ranked list of conditions. If several conditions are true at once, the highest-priority one wins.

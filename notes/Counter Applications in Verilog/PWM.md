@@ -1,4 +1,6 @@
 ___
+> **[[Index]]** 
+
 **PWM (Pulse Width Modulation)** is a way of controlling how much power a device gets by switching a digital pin rapidly between HIGH and LOW, instead of using a true analog voltage.
 
 # Main Characteristics

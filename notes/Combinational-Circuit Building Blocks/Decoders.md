@@ -1,4 +1,6 @@
 ___
+> **[[Index]]** 
+
 A **decoder** is a combinational circuit that takes an n-bit binary input and activates exactly one of 2ⁿ output lines. It’s the inverse of an encoder: the input is a code, and the output is a one-hot signal saying which code was received.
 ___
 # 2x4 Decoder
