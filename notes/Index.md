@@ -10,11 +10,11 @@ ___
 - [[7. Developing Simple Verilog Testbenches]]
 
 **Combinational-Circuit Building Blocks**
-1. [[Multiplexers]]
-2. [[Verilog Coding Guidelines for Conditional Control Constructs]]
-3. [[3. Decoders]]
-4. [[4. Encoders]]
-5. [[5. Code Converters]]
+-	1. [[Multiplexers]]
+-	1. [[Verilog Coding Guidelines for Conditional Control Constructs]]
+-	1. [[Decoders]]
+-	1. [[Encoders]]
+-	1. [[Code Converters]]
 
 **Registers in Verilog**
 I.   [[1. Simple Storage Elements (Latches & Flip-Flops)]]
