@@ -141,5 +141,8 @@ begin
 	endcase
 end
 ```
-	Note: here, because the default in the case statement just affect f, m will infer a latch if not for the already assigned values at first.
+
+> [!warning]
+> Here, because the default in the case statement just affect `f`, `m` will infer a latch if not for the already assigned values at first.
+
 ___
