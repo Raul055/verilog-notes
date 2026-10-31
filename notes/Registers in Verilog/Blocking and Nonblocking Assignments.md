@@ -1,5 +1,5 @@
 ___
-> [[Index]]** 
+> **[[Index]]** 
 
 Consider the following module.
 ```verilog
