@@ -72,7 +72,7 @@ module mealy_101_detector
 	end
 	
 	// Output logic
-	assign y = 
+	assign y = (state_reg == 2) & x;
 
 endmodule
 ```
