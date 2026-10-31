@@ -3,7 +3,7 @@ ___
 
 ![[n-bit-adder.png | center]]
 
-The following module corresponds to an `N-Bit` **adder** using the **full-adder** module from [[1. Adders]].
+The following module corresponds to an `N-Bit` **adder** using the **full-adder** module from [[Adders]].
 
 ```verilog
 module rca_nbit

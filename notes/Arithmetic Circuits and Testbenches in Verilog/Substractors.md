@@ -16,7 +16,7 @@ Due to the `2's Complement` we can integrate and adder and a substractor like as
 
 In here the `Add/Substract control` signal determines if it is acting as an adder (`control = 0`) or as a substractor (`control = 1`). When acting as an adder, the XOR gates function as buffers an all `y` is passed to the `n-bit adder`. However, when acting as a substractor, the XOR gates function as a **1's complement** of `y`, and then $c_0$ is added (which is 1), so at the end, we obtained the **2's complement** that is being added to the `n-bit adder`.
 
-The following module represent a `4-bit` **adder/substractor** and utilizes the `rca_4bit` adder from [[1. Adders]].
+The following module represent a `4-bit` **adder/substractor** and utilizes the `rca_4bit` adder from [[Adders]].
 
 ```verilog
 module adder_substractor_4bits
@@ -47,7 +47,7 @@ module adder_substractor_4bits
 endmodule
 ```
 
-Or better, the parametrized, `N-Bit` **adder/substractor** with the `rca_nbit` module form [[2. Generic Verilog Code Parametrization]].
+Or better, the parametrized, `N-Bit` **adder/substractor** with the `rca_nbit` module form [[Generic Verilog Code Parametrization]].
 
 ```verilog
 module adder_substractor_nbits

@@ -180,7 +180,7 @@ Here, **FINAL_VALUE** is given as an input for the user to be able to control $f
 
 ![[d-ff.png | center]]
 
-The following module represent the PWM design with the mentioned improvements. This design uses the `timer_input` module from [[5. Counters as Timers]].
+The following module represent the PWM design with the mentioned improvements. This design uses the `timer_input` module from [[Counters as Timers]].
 
 ```verilog
 module pwm_improved

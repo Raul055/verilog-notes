@@ -11,7 +11,7 @@ For example, look at the following operations.
 
 Here, as we are dealing with `4-bit numbers`, the *carry-out* bit does not matter. At the same time, see that the first and fourth operations are outside the range of the `4-bits`, so we've encountered an **overflow**.
 
-We can implement the `adder_substractor` module to deal with signed numbers using the `rca_nbit` module from [[2. Generic Verilog Code Parametrization]].
+We can implement the `adder_substractor` module to deal with signed numbers using the `rca_nbit` module from [[Generic Verilog Code Parametrization]].
 
 ```verilog
 module adder_substractor

@@ -26,7 +26,7 @@ module module_tb; // usually does not have I/O
 endmodule
 ```
 
-For example, we can elaborate a testbench for the `adder_substractor` module from [[4. Signed Numbers & Arithmetic Overflow]].
+For example, we can elaborate a testbench for the `adder_substractor` module from [[Signed Numbers & Arithmetic Overflow]].
 ```verilog
 `timescale 1ns / 1ps // scale of time
 
