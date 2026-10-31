@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # SR Latch
 An **SR latch** (Set-Reset latch) is a basic bistable circuit that stores one bit of information. It has two inputs, **S** (set) and **R** (reset), and two complementary outputs, **Q** and **Q̅**. It is the simplest storage element.
 

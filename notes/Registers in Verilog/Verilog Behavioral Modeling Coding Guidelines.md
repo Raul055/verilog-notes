@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # Coding Guidelines
 #### 1. Use *blocking* (immediate) assignments for combinational circuits.
 ___

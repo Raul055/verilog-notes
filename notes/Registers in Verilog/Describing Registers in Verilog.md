@@ -1,4 +1,5 @@
 ___
+> **[[Index]]** 
 # `N-bit` Simple Register
 We can describe a simple `N-bit` register the following way:
 ```verilog
