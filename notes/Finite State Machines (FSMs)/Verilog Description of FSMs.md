@@ -28,13 +28,17 @@ module mealy_101_detector
 	);
 	
 	reg [1:0] state_reg, state_next;
-	
-	localparam s0 = 0;
+	// States from FSM
+	localparam s0 = 0; // reset state
 	localparam s1 = 1;
 	localparam s2 = 2;
 	
 	// State register
-	
+	always @(posedge clk, posedge reset)
+	begin
+		if(reset)
+			state_reg <= s0; // go to reset state
+	end
 	
 	// Next state logic
 	
