@@ -115,9 +115,13 @@ module moore_101_detector
 					state_next = s2;
 			s2:
 				if(x)
-					state_next = s1;
+					state_next = s3;
 				else
 					state_next = s0;
+			s3: if(x)
+					state_next = s1;
+				else
+					state_next = s2;;
 			default: state_next = state_reg; // can also be go to s0
 		endcase
 	end
