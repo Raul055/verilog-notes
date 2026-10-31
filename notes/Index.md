@@ -1,28 +1,28 @@
 ___
 
 **Arithmetic Circuits and Testbenches in Verilog**
-- [[1. Adders]]
-- [[2. Generic Verilog Code Parametrization]]
-- [[3. Substractors]]
-- [[4. Signed Numbers & Arithmetic Overflow]]
--  [[5. Verilog Arithmetic Operations]]
-- [[6. Representing Numbers in Verilog]]
-- [[7. Developing Simple Verilog Testbenches]]
+1. [[1. Adders]]
+2. [[2. Generic Verilog Code Parametrization]]
+3. [[3. Substractors]]
+4. [[4. Signed Numbers & Arithmetic Overflow]]
+5.  [[5. Verilog Arithmetic Operations]]
+6. [[6. Representing Numbers in Verilog]]
+7. [[7. Developing Simple Verilog Testbenches]]
 
 **Combinational-Circuit Building Blocks**
--	1. [[Multiplexers]]
--	1. [[Verilog Coding Guidelines for Conditional Control Constructs]]
--	1. [[Decoders]]
--	1. [[Encoders]]
--	1. [[Code Converters]]
+	1. [[Multiplexers]]
+	2. [[Verilog Coding Guidelines for Conditional Control Constructs]]
+	3. [[Decoders]]
+	4. [[Encoders]]
+	5. [[Code Converters]]
 
 **Registers in Verilog**
-I.   [[1. Simple Storage Elements (Latches & Flip-Flops)]]
-II.  [[2. Describing D Latches and D Flip-Flops in Verilog]]
-III. [[3. Blocking and Nonblocking Assignments]]
-IV.  [[4. Verilog Behavioral Modeling Coding Guidelines]]
-V.   [[5. Synchronous, Asynchronous, Set & Reset]]
-VI.  [[6. Describing Registers in Verilog]]
+[[1. Simple Storage Elements (Latches & Flip-Flops)]]
+[[2. Describing D Latches and D Flip-Flops in Verilog]]
+[[3. Blocking and Nonblocking Assignments]]
+[[4. Verilog Behavioral Modeling Coding Guidelines]]
+[[5. Synchronous, Asynchronous, Set & Reset]]
+[[6. Describing Registers in Verilog]]
 
 **Counters in Verilog**
 	[[1. Asynchronous vs. Synchronous Counters]]
