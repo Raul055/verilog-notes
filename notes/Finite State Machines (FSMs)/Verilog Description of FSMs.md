@@ -46,7 +46,10 @@ module mealy_101_detector
 	always @(*)
 	begin
 		case(state_reg)
-			s0: 
+			s0: if(x)
+					state_next = s1;
+				else
+					state_next = s0;
 			s1:
 			s2:
 			default:
