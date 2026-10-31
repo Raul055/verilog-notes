@@ -69,3 +69,8 @@ module mealy_101_detector
 
 endmodule
 ```
+
+We can also do it with the **Moore machine** version.
+
+![[description-fsm-state-diagram-2.png | center]]
+
