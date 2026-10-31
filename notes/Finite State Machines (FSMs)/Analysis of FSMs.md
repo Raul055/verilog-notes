@@ -1,4 +1,6 @@
 ___
+> **[[Index]]**
+
 A **finite state machine (FSM)** is a sequential circuit that is in exactly one of a finite number of **states** at any time. It moves between states based on its current state and its inputs, and it produces outputs. We can analyze by some examples.
 ___
 # Example 1
