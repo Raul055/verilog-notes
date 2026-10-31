@@ -5,7 +5,7 @@ ___
 - [[2. Generic Verilog Code Parametrization]]
 - [[3. Substractors]]
 - [[4. Signed Numbers & Arithmetic Overflow]]
-- [[5. Verilog Arithmetic Operations]]
+-  [[5. Verilog Arithmetic Operations]]
 - [[6. Representing Numbers in Verilog]]
 - [[7. Developing Simple Verilog Testbenches]]
 
