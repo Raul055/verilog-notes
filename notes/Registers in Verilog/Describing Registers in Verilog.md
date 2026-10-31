@@ -159,7 +159,10 @@ endmodule
 This can be seen as the following.
 
 ![[parallel-access-shift-register.png| center]]
-**Note:** *parallel access is NOT described in the module.*
+
+>[!info]
+>Parallel access is NOT described in the module.
+>
 ___
 # `N-Bit` Universal Shift Register
 The following module describes a `N-Bit` universal shift register.
