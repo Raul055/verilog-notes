@@ -26,4 +26,8 @@ Counters in Verilog
 	[[2. Up Down Load Counters]]
 	[[3. Modulus Counters]]
 	[[4. BCD & Multi-Decade Counters]]
-	[[5]]
+	[[5. Counters as Timers]]
+Counter Applications in Verilog
+	[[1. PWM]]
+	[[2. Linear Feedback Shift Register (LFSR)]]
+Fini
