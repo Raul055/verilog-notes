@@ -12,3 +12,4 @@ The following is an example of an **ASM Block**.
 
 ![[asm-block-example.png]]
 
+There are multiple ways for representing an **ASM Block**. 
