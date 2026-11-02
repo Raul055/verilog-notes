@@ -3,4 +3,5 @@ ___
 
 # Example 1
 Consider the following problem.
-![[Pasted image 20261101184215.png]]
+
+![[more-complex-fsms-example-1.png]]

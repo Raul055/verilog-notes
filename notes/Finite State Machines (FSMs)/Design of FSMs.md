@@ -22,7 +22,7 @@ Suppose a *sequence detector* that searches for the pattern `101`. With a *Mealy
 
 First, we draw the **state diagram**.
 
-![[sequence-detector-state-diagram-1.png | center]]
+![[sequence-detector-state-diagram-1 1.png| center]]
 
 In here, we take into account the desired sequence of bits read is `101` for an output of `1`. The thought process of the creation of the FSM is the following.
 1. $s_0$ is the initial state, where no bit has been seen (or reset state). If `0` is seen, stay in the current state; else, if a `1` is seen, move to a new state: $s_1$.
