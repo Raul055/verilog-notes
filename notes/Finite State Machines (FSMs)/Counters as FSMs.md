@@ -23,7 +23,19 @@ module fsm_counter
 			   s6 = 6, s7 = 7;
 	
 	// State register
-	always @(posedge clk, posed)
+	always @(posedge clk, posedge reset)
+	begin
+		if (reset)
+			state_reg <= s0;
+		else
+			state_reg <= state_next;
+	end
+	
+	// Next state logic
+	always @(*)
+	begin
+		
+	end
 	
 endmodule
 ```
