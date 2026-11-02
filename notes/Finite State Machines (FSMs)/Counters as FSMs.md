@@ -86,7 +86,14 @@ module fsm_counter_tb;
 
 	initial
 	begin
-		reset = 
+		reset = 1'b1;
+		enable = 1'b0;
+		@(posedge clk);
+		reset = 1'b0;
+		enable = 1'b1;
+		
+		repeat(20) @(posedge clk);
+		$finish;
 	end
 
 endmodule
