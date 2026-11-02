@@ -99,5 +99,7 @@ module fsm_counter_tb;
 endmodule
 ```
 
-With this, we can implement a
-![[Pasted image 20261101202902.png]]
+With this, we can implement an arbitrary counter. For example, the following:
+
+![[counters-as-fsms-arbitrary-counter.png | center]]
+
