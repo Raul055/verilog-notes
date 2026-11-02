@@ -76,7 +76,18 @@ module fsm_counter_tb;
 
 	// Generate a clk signal
 	localparam T = 10;
-	
+	always
+	begin
+		clk = 1'b0;
+		#(T / 2);
+		clk = 1'b1;
+		#(T / 2);
+	end
+
+	initial
+	begin
+		reset = 
+	end
 
 endmodule
 ```
