@@ -16,4 +16,5 @@ There are multiple ways for representing an **ASM Block**. For example, the foll
 
 ![[asm-block-example-2.png | center]]
 
-Notice that for outputs $S_2$ and $S_3$, the trail is exactly the same. Because of this, they are equivalent. Likewise, 
+Notice that for outputs $S_2$ and $S_3$, the trail is exactly the same. Because of this, they are equivalent. Likewise, an **ASM Block** never has to have *feedback* from the ASM Block itself.
+
