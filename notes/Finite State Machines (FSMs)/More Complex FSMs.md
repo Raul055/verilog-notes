@@ -18,6 +18,6 @@ Consider the following problem.
 
 Its **state diagram** is the following.
 
-
+![[more-complex-fsms-state-diagram-2.png]]
 
 ___
