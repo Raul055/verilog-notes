@@ -134,14 +134,13 @@ module fsm_arbitrary_counter
 	begin
 		if (en)
 			case(state_reg)
-				s0: state_next = s6;
-				s1: state_next = s1;
-				s2: state_next = s3;
-				s3: state_next = s4;
-				s4: state_next = s5;
-				s5: state_next = s6;
-				s6: state_next = s7;
-				default: state_next = state_reg;
+				s1: state_next = s6;
+				s2: state_next = s1;
+				s3: state_next = s5;
+				s4: state_next = s2;
+				s5: state_next = s4;
+				s6: state_next = s3;
+				default: state_next = s1;
 			endcase
 		else
 			state_next = state_reg;
@@ -152,3 +151,5 @@ module fsm_arbitrary_counter
 	
 endmodule
 ```
+
+>![note]
