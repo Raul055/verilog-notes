@@ -12,3 +12,6 @@ Its **state diagram** is the following.
 
 ___
 # Example 2
+Consider the following problem.
+
+![[more-complex-fsms-example-2.png ]]
