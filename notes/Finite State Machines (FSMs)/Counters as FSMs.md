@@ -18,7 +18,12 @@ module fsm_counter
 		output [2:0] num
 	);
 	
-	reg [2]
+	reg [2:0] state_reg, state_next;
+	localparam s0 = 0, s1 = 1, s2 = 2, s3 = 3, s4 = 4, s5 = 5,
+			   s6 = 6, s7 = 7;
+	
+	// State register
+	always @(posedge clk, posed)
 	
 endmodule
 ```
