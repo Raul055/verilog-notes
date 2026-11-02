@@ -28,4 +28,8 @@ Take as an example the following.
 
 The solution shall look like this.
 
-![[Pasted image 20261101205041.png]]
+![[asm-diagram-solution.png | center]]
+
+>[!info]
+>
+___
