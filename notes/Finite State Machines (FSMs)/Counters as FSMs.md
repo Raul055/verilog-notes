@@ -117,8 +117,8 @@ module fsm_arbitrary_counter
 	);
 	
 	reg [2:0] state_reg, state_next;
-	localparam s0 = 0, s1 = 1, s2 = 2, s3 = 3, s4 = 4, s5 = 5,
-			   s6 = 6, s7 = 7;
+	localparam s1 = 1, s2 = 2, s3 = 3,
+			   s4 = 4, s5 = 5, s6 = 6;
 	
 	// State register
 	always @(posedge clk, posedge reset)
@@ -134,14 +134,13 @@ module fsm_arbitrary_counter
 	begin
 		if (en)
 			case(state_reg)
-				s0: state_next = s1;
-				s1: state_next = s2;
+				s0: state_next = s6;
+				s1: state_next = s1;
 				s2: state_next = s3;
 				s3: state_next = s4;
 				s4: state_next = s5;
 				s5: state_next = s6;
 				s6: state_next = s7;
-				s7: state_next = s0;
 				default: state_next = state_reg;
 			endcase
 		else
