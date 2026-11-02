@@ -41,4 +41,5 @@ ___
 	4. [[Verilog Description of FSMs]]
 	5. [[More Complex FSMs]]
 	6. [[Counters as FSMs]]
+	7. [[ASM ]]
 ___

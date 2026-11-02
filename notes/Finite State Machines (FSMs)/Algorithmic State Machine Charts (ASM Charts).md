@@ -31,5 +31,6 @@ The solution shall look like this.
 ![[asm-diagram-solution.png | center]]
 
 >[!info]
->
+>Both represent the same FSM.
+
 ___
