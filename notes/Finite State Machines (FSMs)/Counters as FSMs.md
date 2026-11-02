@@ -152,4 +152,7 @@ module fsm_arbitrary_counter
 endmodule
 ```
 
->![note]
+>[!info]
+> Note how the changes were made from the states in the *next state logic*.
+
+___
