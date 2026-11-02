@@ -18,3 +18,6 @@ There are multiple ways for representing an **ASM Block**. For example, the foll
 
 Notice that for outputs $S_2$ and $S_3$, the trail is exactly the same. Because of this, they are equivalent. Likewise, an **ASM Block** never has to have *feedback* from the ASM Block itself.
 
+![[asm-block-correct-incorrect.png]]
+
+___
