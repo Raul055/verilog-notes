@@ -11,4 +11,4 @@ Its **state diagram** is the following.
 ![[more-complex-fsms-state-diagram-1.png | center]]
 
 ___
- 
+# Example 2
