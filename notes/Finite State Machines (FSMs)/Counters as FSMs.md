@@ -37,11 +37,21 @@ module fsm_counter
 		if (en)
 			case(state_reg)
 				s0: state_next = s1;
+				s1: state_next = s2;
+				s2: state_next = s3;
+				s3: state_next = s4;
+				s4: state_next = s5;
+				s5: state_next = s6;
+				s6: state_next = s7;
+				s7: state_next = s0;
 				default: state_next = state_reg;
 			endcase
 		else
 			state_next = state_reg;
 	end
+	
+	// Output logic
+	assign num = state_reg;
 	
 endmodule
 ```
