@@ -24,4 +24,8 @@ ___
 # Example
 Take as an example the following.
 
-![[asm-block-example-1.png]]
+![[asm-block-example-1.png | center]]
+
+The solution shall look like this.
+
+![[Pasted image 20261101205041.png]]
