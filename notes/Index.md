@@ -41,5 +41,8 @@ ___
 	4. [[Verilog Description of FSMs]]
 	5. [[More Complex FSMs]]
 	6. [[Counters as FSMs]]
-	7. [[ASM ]]
+	7. [[Algorithmic State Machine Charts (ASM Charts)]]
+___
+**FSMs Applications**
+
 ___
