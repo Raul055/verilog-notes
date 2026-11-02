@@ -12,4 +12,8 @@ The following is an example of an **ASM Block**.
 
 ![[asm-block-example.png]]
 
-There are multiple ways for representing an **ASM Block**. 
+There are multiple ways for representing an **ASM Block**. For example, the following represent the same **ASM Block**.
+
+![[asm-block-example-2.png | center]]
+
+Notice that for outputs $S_2$ and $S_3%
