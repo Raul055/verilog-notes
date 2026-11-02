@@ -59,7 +59,15 @@ endmodule
 The following testbench can be used for testing the module.
 
 ```verilog
-module
+module fsm_counter_tb;
+	// I/O
+	reg clk;
+	reg reset;
+	reg enable;
+	wire [2:0] num;
+	
+	// Instantiate modules under test
+	
 
 endmodule
 ```
