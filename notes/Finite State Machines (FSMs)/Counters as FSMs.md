@@ -55,3 +55,11 @@ module fsm_counter
 	
 endmodule
 ```
+
+The following testbench can be used for testing the module.
+
+```verilog
+module
+
+endmodule
+```
