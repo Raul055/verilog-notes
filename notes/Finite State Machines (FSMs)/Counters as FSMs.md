@@ -67,6 +67,15 @@ module fsm_counter_tb;
 	wire [2:0] num;
 	
 	// Instantiate modules under test
+	fsm_counter uut0 (
+		.clk(clk),
+		.reset(reset),
+		.enable(enable),
+		.num(num)
+	);
+
+	// Generate a clk signal
+	localparam T = 10;
 	
 
 endmodule
