@@ -98,3 +98,6 @@ module fsm_counter_tb;
 
 endmodule
 ```
+
+With this, we can implement a
+![[Pasted image 20261101202902.png]]
