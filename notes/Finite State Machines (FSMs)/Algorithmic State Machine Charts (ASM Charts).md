@@ -8,3 +8,7 @@ An **ASM block** is the unit of an ASM chart. Exactly one state box plus everyth
 
 ![[asm-block.png | center]]
 
+The following is an example of an **ASM Block**.
+
+![[asm-block-example.png]]
+
