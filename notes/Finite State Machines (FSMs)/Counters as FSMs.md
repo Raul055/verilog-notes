@@ -34,7 +34,13 @@ module fsm_counter
 	// Next state logic
 	always @(*)
 	begin
-		
+		if (en)
+			case(state_reg)
+				s0: state_next = s1;
+				default: state_next = state_reg;
+			endcase
+		else
+			state_next = state_reg;
 	end
 	
 endmodule
