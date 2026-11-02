@@ -14,4 +14,10 @@ ___
 # Example 2
 Consider the following problem.
 
-![[more-complex-fsms-example-2.png ]]
+![[more-complex-fsms-example-2.png | center]]
+
+Its **state diagram** is the following.
+
+
+
+___
