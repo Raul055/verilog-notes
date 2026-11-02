@@ -21,3 +21,7 @@ Notice that for outputs $S_2$ and $S_3$, the trail is exactly the same. Because 
 ![[asm-block-correct-incorrect.png]]
 
 ___
+# Example
+Take as an example the following.
+
+![[asm-block-example-1.png]]
