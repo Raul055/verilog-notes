@@ -98,7 +98,7 @@ module debouncer_delayed
 	// 20 ms timer for 100 MHz clock
 	timer_parameter #(.FINAL_VALUE(1_999_999)) T0(
 		.clk(clk),
-		.reset(~timer_reset),
+		.reset(timer_reset),
 		.enable(~timer_reset),
 		.done(timer_done)
 	);
