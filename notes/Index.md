@@ -44,5 +44,5 @@ ___
 	7. [[Algorithmic State Machine Charts (ASM Charts)]]
 ___
 **FSMs Applications**
-
+	1. [[Buttons (Debouncing & Edge Detection)]]
 ___
